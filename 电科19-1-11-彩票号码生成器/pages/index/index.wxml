@@ -1,0 +1,22 @@
+<!--
+    @author：电科19-1
+            201923010111
+            李波澄-->
+<!--index.wxml-->
+<view class="box">
+  <view class='title'>双色球彩票号码生成器</view>
+  <view class="text1">随机产生的红球号码为：</view>
+  <view class="text4">{{rand}}</view>
+  <view class="text2">随机产生的蓝球号码为：</view>
+  <view class="text3">{{rand1}}</view>
+  <button type='warn' bindtap='newRand' >生成新的彩票号码</button>
+  <view class="textstyle">
+    @author：电科19-1
+              201923010111
+              李波澄
+              </view>
+  <view class="textstyle1">
+  @微信开发study hardly！
+  </view>
+
+</view>
